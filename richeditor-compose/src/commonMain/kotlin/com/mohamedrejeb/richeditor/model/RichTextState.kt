@@ -76,7 +76,7 @@ public class RichTextState internal constructor(
 
     internal var singleParagraphMode by mutableStateOf(false)
 
-    internal var textLayoutResult: TextLayoutResult? by mutableStateOf(null)
+    public var textLayoutResult: TextLayoutResult? by mutableStateOf(null)
         private set
 
     private var lastPressPosition: Offset? by mutableStateOf(null)
